@@ -7,4 +7,6 @@ def print_every_two(string_given):
     print(listed_string)
 
 string_input = input("please wright a word: ")
-print_every_two(string_input)
+every_two_elements = string_input[0::2]
+print(every_two_elements)
+# print_every_two(string_input)
