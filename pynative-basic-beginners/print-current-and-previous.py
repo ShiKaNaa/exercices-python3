@@ -2,5 +2,5 @@
 
 for i in range(10):
     previous = i - 1
-    sum_with_next = i + i + 1
-    print(f'Current number is {i}, previous number is {previous}, next is {sum_with_next}')
+    sum_with_next = i + previous
+    print(f'Current number is {i}, previous number is {previous}, sum is {sum_with_next}')
