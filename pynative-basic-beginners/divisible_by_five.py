@@ -6,3 +6,7 @@
 # 10
 # 20
 # 55
+
+def divisible_by_five(list_int):
+    for i in list_int:
+        print( i)
