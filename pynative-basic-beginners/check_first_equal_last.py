@@ -7,8 +7,8 @@
 # numbers_y = [75, 65, 35, 75, 30]
 # result is False
 
-def first_equal_last(array_of_int):
-    return True if array_of_int[0] == array_of_int.last else False
+def first_equal_last(list_of_int):
+    return True if list_of_int[0] == list_of_int[-1] else False
 
-first_equal_last([75, 65, 35, 75, 30])
-first_equal_last([10, 20, 30, 40, 10])
+print(first_equal_last([75, 65, 35, 75, 30]))
+print(first_equal_last([10, 20, 30, 40, 10]))
