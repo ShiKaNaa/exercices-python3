@@ -9,4 +9,7 @@
 
 def divisible_by_five(list_int):
     for i in list_int:
-        print( i)
+        if i % 5 == 0:
+            print(i)
+
+divisible_by_five([10, 20, 33, 46, 55])
